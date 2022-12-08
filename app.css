@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body { 
     margin: 0;
@@ -55,40 +54,21 @@ header {
 
 footer{
     position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background: white;
     height: auto;
     width: 100%;
-    margin-top: 5%;
-    color: black;
-}
-.footer-content{
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 25px;
-    font-size: 14px;
     color: black;
 }
 .footer-bottom{
     background: white;
-    width: 100vw;
-    padding: 20px;
+    width: 100%;
+    padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
 }
 .footer-bottom p{
     text-align: center;
     font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
 }
 .footer-bottom p a{
   color:rgb(255, 69, 69);
@@ -152,7 +132,7 @@ footer{
 .principal{
   display: flex;
   width: 50%;
-  height: 200px;
+  height: auto;
   margin: 0 auto;
 }
 .principal p{
@@ -196,4 +176,23 @@ footer{
 .principal p{
   margin: 0 auto;
   margin-top: 2%;
+}
+
+.historia{
+  text-align: center;
+  margin-top: 3%;
+  color: rgb(255, 69, 69);
+}
+
+.historia img{
+  box-shadow: 10px 5px 8px black;
+  margin-top: 1%;
+}
+
+.historia p{
+  width: 50%;
+  color: rgb(255, 69, 69);
+  font-size: 17px;
+  margin: 0 auto;
+  margin-top: 1%;
 }
